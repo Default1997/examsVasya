@@ -1,0 +1,134 @@
+.calendarBlock{
+    height: 150px;
+    /*width: 200px;*/
+    background-color: aliceblue;
+    border-bottom: solid 15px #808080;
+    font-family: tahoma;
+    font-size: 20px;
+}
+.calendarBlockPrepare{
+    height: 150px;
+    background-color: aliceblue;
+    border-bottom: solid 15px yellowgreen;
+    font-family: tahoma;
+    font-size: 20px;
+}
+.calendarBlockExam{
+    height: 150px;
+    background-color: aliceblue;
+    border-bottom: solid 15px darkred;   
+    font-family: tahoma;
+    font-size: 20px;
+
+}
+
+
+/*==== FADE IN RIGHT ===*/
+@-webkit-keyframes fadeInRight {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+.box {
+  /*background: #23a3d3;*/
+  /*width: 90px;*/
+  /*height: 70px;*/
+  padding: 20px;
+  text-align: center;
+  /*color: white;*/
+  /*border-radius: 7px;*/
+  float: left;
+  /*margin: 4px;*/
+  /*font-size: 12px;*/
+  /*font-family: 'Arial';*/
+  /*text-transform: uppercase;*/
+}
+
+
+/*=== Trigger  ===*/
+.animate {
+  -webkit-animation-duration: 0.1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+/*=== Optional Delays, change values here  ===*/
+.one {
+-webkit-animation-delay: 0.4s;
+-moz-animation-delay: 0.4s;
+animation-delay: 0.4s;
+}
+
+.two {
+-webkit-animation-delay: 1.7s;
+-moz-animation-delay: 1.7s;
+animation-delay: 1.7s;
+}
+
+.three {
+-webkit-animation-delay: 2.3s;
+-moz-animation-delay: 2.3s;
+animation-delay: 2.3s;
+}
+
+.four {
+-webkit-animation-delay: 0.8s;
+-moz-animation-delay: 0.8s;
+animation-delay: 0.8s;
+}
+
+/*=== Animations start here  ===*/
+/*=== FADE IN  ===*/
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.fadeIn {
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+}
+
+
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+.fadeInRight {
+  -webkit-animation-name: fadeInRight;
+  animation-name: fadeInRight;
+}
